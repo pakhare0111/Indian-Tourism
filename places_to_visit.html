@@ -8,74 +8,1319 @@
     <link rel="icon" type="icon/x-icon" href="assets/icons/indian-tourism-traval-guide.png">
     <!-- Bootsrap CSS Link -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/cardhover.css">
 </head>
 <body>
+    <!-- Header and Navbar -->
+    <!-- Header and Navbar -->
     <header class="shadow-lg sticky-top">
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="assets/icons/indiatourismlogo.png" alt="" height="50"
-                        width="100"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link active">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">About Us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Places To Visit</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Hotels</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Packages</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Gallery</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Contact us</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Reviews & FAQ </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#"><img src="assets/icons/indiatourismlogo.png" alt="" height="50"
+                      width="100"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                  aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                          <a href="index.html" class="nav-link active">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">About Us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Places To Visit</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Hotels</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Packages</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Gallery</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Contact us</a>
+                      </li>
+                      <li class="nav-item">
+                          <a href="" class="nav-link">Reviews & FAQ </a>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+      </nav>
+  </header>
+    
     <section>
+      <h2 class="mt-5 text-center"><u>Places</u> <u>To</u> <u>Visit</u> <u>In</u> <u>India</u></h2><br><br>
         <div class="container">
-            <h2 class="font-regular w-50"> Here are the top 50 tourist places in India </h2>
-            <div class="row">
-                <div class="col-md-4">
-                    
+
+          <!--1st Row-->
+          
+          <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+              <div class="card h-100 border border-warning border-3" style="cursor: pointer;">
+                <div id="Agra" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Agra" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#Agra" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#Agra" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="/assets/anant_images/Agra/Taj_Mahal.jpg" class="d-block w-100" alt="Taj_Mahal">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Taj Mahal</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Agra/Agra_Red_Fort.jpg" class="d-block w-100" alt="Agra_Red_Fort">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Agra Red Fort</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Agra/Fatehpur_Sikri.jpg" class="d-block w-100" alt="Fatehpur_Sikri">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Fatehpur Sikri</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#Agra" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#Agra" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
                 </div>
-    
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">1. Agra</h5>
+                  <p class="card-text">Located on the banks of River Yamuna in Uttar Pradesh, Agra is a popular tourist destination as it is home to one of the 7 wonders of the world, the Taj Mahal.</p>
+                </div>
+                <div class="card-footer bg-primary bg-opacity-50">
+                  <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+                </div>
+              </div>
             </div>
-        </div>
-    </section>
+            <div class="col">
+              <div class="card h-100 border border-warning border-3">
+                <div id="Amarnath" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Amarnath" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#Amarnath" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#Amarnath" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/anant_images/Amarnath/Amarnath_Cave.jpg" class="d-block w-100" alt="Amarnath_Cave">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Amarnath Cave</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Amarnath/amarnath_mountains.jpg" class="d-block w-100" alt="amarnath_mountains">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Amarnath Mountains</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Amarnath/amarnath_village.jpg" class="d-block w-100" alt="amarnath_village">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Amarnath Village</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#Amarnath" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#Amarnath" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">2. Amarnath</h5>
+                  <p class="card-text ">Amarnath, located in union territory of Jammu and Kashmir is one of the most important pilgrimage in India for the worshippers of Lord Shiva. The Amarnath cave has an enshrined Shivaling formed naturally with ice, which resembles Lord Shiva.</p>
+                </div>
+                <div class="card-footer bg-primary bg-opacity-50">
+                  <small class="text-body-secondary"><b>Best Time:</b> May - July</small>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card h-100 border border-warning border-3">
+                <div id="Amritsar" class="carousel slide">
+                  <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#Amritsar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#Amritsar" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#Amritsar" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                  </div>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/assets/anant_images/Amritsar/Golden_Temple.jpg" class="d-block w-100" alt="Golden_Temple">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Golden Temple</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Amritsar/Hari_Mandir_Sahib.jpg" class="d-block w-100" alt="Hari_Mandir_Sahib">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Hari Mandir Sahib</h5>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/assets/anant_images/Amritsar/Jallianwala_Bagh.jpg" class="d-block w-100" alt="Jallianwala_Bagh">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Jallianwala Bagh</h5>
+                      </div>
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#Amritsar" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#Amritsar" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                <div class="card-body text-bg-secondary">
+                  <h5 class="card-title">3. Amritsar</h5>
+                  <p class="card-text">Amritsar, colloquially known as Ambarsar, is a city steeped in history and spirituality. It stands as a prominent cultural and religious hub in the heart of Punjab, as the second largest city of India. The city is most renowned for the Golden Temple, the holiest shrine in Sikhism.</p>
+                </div>
+                <div class="card-footer bg-primary bg-opacity-50">
+                  <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+                </div>
+              </div>
+            </div>
+          </div><br><br>
+
+        <!--2nd Row--> 
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Banglore" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Banglore" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Banglore" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Banglore" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Bangalore/Bangalore_Palace.jpg" class="d-block w-100" alt="Bangalore_Palace">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Banglore Palace</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Bangalore/lalbagh.png" class="d-block w-100" alt="Lalbagh">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Lalbagh</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Bangalore/BANGALORE1.jpg" class="d-block w-100" alt="BANGALORE1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Banglore City</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Banglore" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Banglore" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">4. Banglore</h5>
+                <p class="card-text">Having evolved gradually from being the Garden city to the Silicon Valley of India, Bangalore is India's third-largest city. Bangalore is loved for its pleasant weather, beautiful parks and the many lakes here. Bangalore is renowned for its eateries, street food corners, quirky cafes.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> Throughout the year</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Char_Dham_Yatra" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Char_Dham_Yatra" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Char_Dham_Yatra" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Char_Dham_Yatra" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Char_Dham_Yatra/Kedarnath_Temple.jpg" class="d-block w-100" alt="Kedarnath_Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Kedarnath Temple</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Char_Dham_Yatra/YAMUNOTRI.jpg" class="d-block w-100" alt="YAMUNOTRI">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Yamunotri</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Char_Dham_Yatra/CHAR_DHAM.jpg" class="d-block w-100" alt="CHAR_DHAM">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Char Dham</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Char_Dham_Yatra" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Char_Dham_Yatra" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">5. Char Dham Yatra</h5>
+                <p class="card-text">Char Dham, which translates to "four abodes," holds significant spiritual prominence in India. Located in the majestic state of Uttarakhand, this pilgrimage circuit encompasses four sacred sites: Yamunotri, Gangotri, Kedarnath, and Badrinath.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> May - June, September - October</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Darjeeling" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Darjeeling" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Darjeeling" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Darjeeling" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Darjeeling/DARJEELING.jpg" class="d-block w-100" alt="DARJEELING">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Darjeeling</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Darjeeling/Himalayan_Railway.jpg" class="d-block w-100" alt="Himalayan_Railway">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Himalayan Railway</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Darjeeling/Nightingale_Park.jpg" class="d-block w-100" alt="Nightingale_Park">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nightingale Park</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Darjeeling" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Darjeeling" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">6. Darjeeling</h5>
+                <p class="card-text">Darjeeling, the former summer capital of India under the British Raj, has evolved into one of India's most sought-after hill stations. This picturesque hill destination in West Bengal is ideal for a romantic honeymoon. Darjeeling, nestled among acres of tea estates, is 2,050 metres above sea level.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> February to March, September to December</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+        <!--3rd Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Goa" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Goa" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Goa" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Goa" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Goa/GOA.jpg" class="d-block w-100" alt="GOA">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Goa</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Goa/Big_Vagator_Beach.jpg" class="d-block w-100" alt="Big_Vagator_Beach">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Big Vagator Beach</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Goa/Interior_View_of_Altar.jpeg" class="d-block w-100" alt="Interior_View_of_Altar">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Interior View of Altar</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Goa" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Goa" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">7. Goa</h5>
+                <p class="card-text">Lying on the western coast, Goa is India's smallest state and unlike any other, known for its endless beaches, stellar nightlife, eclectic seafood, world-heritage listed architecture. Spread across just 3,702 km, Goa lies in the Konkan region.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Gokarna" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Gokarna" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Gokarna" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Gokarna" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Gokarna/GOKARNA.jpg" class="d-block w-100" alt="GOKARNA">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gokarna</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Gokarna/Mahabaleshwar_Temple_at_Gokaran.jpg" class="d-block w-100" alt="Mahabaleshwar_Temple_at_Gokaran">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mahabaleshwar Temple at Gokarana</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Gokarna/Om_Beach.jpg" class="d-block w-100" alt="Om_Beach">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Om Beach</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Gokarna" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Gokarna" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">8. Gokarna</h5>
+                <p class="card-text">With its pristine beaches and breathtaking landscapes, Gokarna is a Hindu pilgrimage town in Karnataka and a newly found hub for beach lovers and hippies. Situated on the coast of Karwar, every year Gokarna welcomes hordes of tourists from around the world in search of sanctity and relaxation.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> Throughout the year</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Gulmarg" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Gulmarg" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Gulmarg" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Gulmarg" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Gulmarg/Gulmarg_Gondola.jpg" class="d-block w-100" alt="Gulmarg_Gondola">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gulmarg_Gondola</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Gulmarg/Maharani_Temple.jpg" class="d-block w-100" alt="Maharani_Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Maharani_Temple</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Gulmarg/Gulmarg_Biosphere_Reserves.jpg" class="d-block w-100" alt="Gulmarg_Biosphere_Reserves">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gulmarg_Biosphere_Reserves</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Gulmarg" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Gulmarg" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">9. Gulmarg</h5>
+                <p class="card-text">Situated at an altitude of 2730 m above sea level, Gulmarg is a popular skiing destination located in Pir Panjal Range of Union territory of Jammu and Kashmir. Surrounded by snow-covered lofty Himalayas, meadows of flowers, deep ravines, evergreen forested valleys, Gulmarg also has the world's second-highest Gondola ride.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to June</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <!--4th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Jaipur" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Jaipur" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Jaipur" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Jaipur" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Jaipur/Amer_Fort.jpg" class="d-block w-100" alt="Amer_Fort">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Amer_Fort</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Jaipur/Hawa_mahal.jpg" class="d-block w-100" alt="Hawa_mahal">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Hawa_mahal</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Jaipur/Nahargarh_Fort.jpg" class="d-block w-100" alt="Nahargarh_Fort">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nahargarh_Fort</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Jaipur" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Jaipur" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">10. Jaipur</h5>
+                <p class="card-text">Jaipur, the capital city of Rajasthan, stands as a jewel in the crown of the Golden Triangle, alongside Delhi and Agra. This enchanting city, often referred to as the "Pink City," owes its nickname to the terracotta-pink hue that adorns many of its buildings. The Pink City is a testament to the royal heritage of Rajasthan.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> November to March</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Jaisalmer" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Jaisalmer" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Jaisalmer" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Jaisalmer" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Jaisalmer/Fort_Jaisalmer.jpg" class="d-block w-100" alt="Fort_Jaisalmer">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Fort Jaisalmer</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Jaisalmer/camel_riding.jpg" class="d-block w-100" alt="camel_riding">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Camel riding</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Jaisalmer/jaisalmer_village.jpg" class="d-block w-100" alt="jaisalmer_village">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Jaisalmer Village</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Jaisalmer" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Jaisalmer" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">11. Jaisalmer</h5>
+                <p class="card-text">Jaisalmer, a mesmerizing destination nestled in the heart of the Thar Desert, is a jewel in the crown of Rajasthan. Often referred to as the "Golden City," Jaisalmer captivates visitors with its sandstone architecture, picturesque landscapes, and rich cultural heritage.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Kashmir" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Kashmir" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Kashmir" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Kashmir" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Kashmir/KASHMIR.jpg" class="d-block w-100" alt="KASHMIR">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Kashmir</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Kashmir/Houseboat_on_Dal_Lake.jpeg" class="d-block w-100" alt="Houseboat_on_Dal_Lake">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Houseboat on Dal Lake</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Kashmir/Lolab_Valley.png" class="d-block w-100" alt="Lolab_Valley">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Lolab Valley</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Kashmir" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Kashmir" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">12. Kashmir</h5>
+                <p class="card-text">Popularly referred to as the "Paradise on Earth," Kashmir is a breathtaking valley in Jammu & Kashmir union territory in 2019. Offering unique experiences year-round, it captivates visitors with Shikara rides and Mughal gardens in Srinagar during summers and autumn where the golden hues of Chinar trees transform the landscape.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> September - November; March - May</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+        <!--5th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Khajuraho" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Khajuraho" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Khajuraho" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Khajuraho" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Khajuraho/Temple_of_Vishwanth.jpg" class="d-block w-100" alt="Temple_of_Vishwanth">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Temple of Vishwanth</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Khajuraho/Ruins_of_Ghantai_Temples.jpg" class="d-block w-100" alt="Ruins_of_Ghantai_Temples">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ruins of Ghantai Temples</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Khajuraho/Lakshmana_Temple.jpg" class="d-block w-100" alt="Lakshmana_Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Lakshmana Temple</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Khajuraho" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Khajuraho" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">13. Khajuraho</h5>
+                <p class="card-text">Khajuraho, a UNESCO World Heritage Site located in Madhya Pradesh, is known around the world for its stunning temples adorned by erotic and sensuous carvings. A small town located in the Bundelkhand region, Khajuraho is a brilliant example of Indian architecture and its culture.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> July to March</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Manali" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Manali" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Manali" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Manali" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Manali/Beautiful_Views_of_Manali.jpg" class="d-block w-100" alt="Beautiful_Views_of_Manali">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Beautiful Views of Manali</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Manali/MANALI.jpg" class="d-block w-100" alt="MANALI">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Manali</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Manali/Solang_Valley.jpg" class="d-block w-100" alt="Solang_Valley">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Solang Valley</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Manali" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Manali" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">14. Manali</h5>
+                <p class="card-text">With spectacular valleys, breathtaking views, snowcapped mountains, and lush forests of oak, deodar, and pine, Manali is a magical hill station at the northern end of Kullu valley in Himachal Pradesh. Gifted to the world by the mighty Himalayas, it is known to be one of the most popular destinations.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to June</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Mumbai" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Mumbai" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Mumbai" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Mumbai" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Mumbai/Gateway_Of_India.jpg" class="d-block w-100" alt="Gateway_Of_India">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Gateway Of India</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Mumbai/Marine_drive.jpg" class="d-block w-100" alt="Marine_drive">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Marine Drive</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Mumbai/Shree_Siddhivinayak_Ganapati_Mandir.jpg" class="d-block w-100" alt="Shree_Siddhivinayak_Ganapati_Mandir">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Shree Siddhivinayak Ganapati Mandir</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Mumbai" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Mumbai" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">15. Mumbai</h5>
+                <p class="card-text">Mumbai, the capital city of the Indian state of Maharashtra, is a spectacular paradox of chaos and hope, glamour and squalor, modernity and tradition. Famously known as the City of Dreams, Mumbai – formerly known as Bombay - Mumbai is a beautifully blended melting pot of cultures and lifestyles.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to February</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+        <!--6th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Munnar/rolling_hills.jpg" class="d-block w-100" alt="rolling_hills">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Rolling Hills</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Munnar/MUNNAR.jpg" class="d-block w-100" alt="MUNNAR">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Munnar</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Munnar/Atukkad_Falls.jpg" class="d-block w-100" alt="Atukkad_Falls">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Atukkad Falls</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">16. Munnar</h5>
+                <p class="card-text">Famous for the tea estates, greenery, winding roads, blanket of mist, and viewpoints, Munnar is a hill station in Kerala, located in the Idukki district. Lying in the Western Ghats at 1600 metres, it is one of the most sought after and visited travel destinations globally.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> September to May</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Mussoorie" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Mussoorie" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Mussoorie" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Mussoorie" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Mussoorie/MUSSOORIE.jpg" class="d-block w-100" alt="MUSSOORIE">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mussoorie</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Mussoorie/Kempty_Falls.jpg" class="d-block w-100" alt="Kempty_Falls">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Kempty Falls</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Mussoorie/Shedup_Choepelling.jpg" class="d-block w-100" alt="Shedup_Choepelling">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Shedup Choepelling</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Mussoorie" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Mussoorie" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">17. Mussoorie</h5>
+                <p class="card-text">Mussoorie, often referred to as the "Queen of the Hills," is a picturesque hill station located in the Dehradun district of Uttarakhand, India. Perched at an altitude of approximately 2,000 meters (6,600 feet) above sea level, Mussoorie offers breathtaking views of the Shivalik ranges.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> September to June</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Nainital" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Nainital" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Nainital" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Nainital" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Nainital/Naini_Lake_Nainital.jpg" class="d-block w-100" alt="Naini_Lake_Nainital">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>NainiLake Nainital</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Nainital/NAINITAL.jpg" class="d-block w-100" alt="NAINITAL">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nainital</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Nainital/Town_of_Nainital.jpg" class="d-block w-100" alt="Town_of_Nainital">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Town of Nainital</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Nainital" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Nainital" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">18. Nainital</h5>
+                <p class="card-text">Nainital, a picturesque hill station in the Kumaon region of Uttarakhand, is known for its serene lakes, lush green hills, and pleasant climate. Located approximately 300 kilometers from Delhi, Nainital town is centered around the emerald-green Naini Lake.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> Throughout the year</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+        <!--7th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Ooty" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Ooty" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Ooty" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Ooty" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Ooty/OOTY.jpg" class="d-block w-100" alt="OOTY">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ooty</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Ooty/Nilgiri_Moutain_Railway.jpg" class="d-block w-100" alt="Nilgiri_Moutain_Railway">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Nilgiri Moutain Railway</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Ooty/Ooty_Lake.jpg" class="d-block w-100" alt="Ooty_Lake">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ooty Lake</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Ooty" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Ooty" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">19. Ooty</h5>
+                <p class="card-text">Nestled amidst Nilgiri hills, Ooty, also known as Udagamandalam, is a hill station in Tamil Nadu which serves as a top-rated tourist destination. Once regarded as the summer headquarters of the East India Company, the Queen of the hills is a picturesque getaway.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> Throughout the year</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Rishikesh" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Rishikesh" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Rishikesh" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Rishikesh" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Rishikesh/Trayambakeshwar_Temple.jpg" class="d-block w-100" alt="Trayambakeshwar_Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Trayambakeshwar Temple</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Rishikesh/Triveni_Ghat.jpg" class="d-block w-100" alt="Triveni_Ghat">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Triveni Ghat</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Rishikesh/Neer_Garh_Waterfalls.jpg" class="d-block w-100" alt="Neer_Garh_Waterfalls">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Neer Garh Waterfalls</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Rishikesh" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Rishikesh" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">20. Rishikesh</h5>
+                <p class="card-text">Located in the foothills of the Himalayas along the convergence of Ganga and Chandrabhaga River, Rishikesh is a small town in the Dehradun district, located close to Haridwar in Uttarakhand. Rishikesh (also called as Hrishikesh) is known for its adventure activities, ancient temples.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> Throughout the year</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Shimla" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Shimla" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Shimla" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Shimla" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Shimla/SHIMLA.jpg" class="d-block w-100" alt="SHIMLA">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Shimla</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Shimla/Mashobra.jpg" class="d-block w-100" alt="Mashobra">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mashobra</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Shimla/1908.jpg" class="d-block w-100" alt="1908">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Night View</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Shimla" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Shimla" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">21. Shimla</h5>
+                <p class="card-text">Shimla is the capital of Himachal Pradesh and a popular hill-station among Indian families and honeymooners. Situated at the height of 2200m, it was the summer capital of British India. The hill station still retains its old-world charm with beautiful colonial architecture.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to June</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+        <!--8th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Srinagar" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Srinagar" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Srinagar" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Srinagar" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Srinagar/Shankaracharya_Temple.jpg" class="d-block w-100" alt="Shankaracharya_Temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Shankaracharya Temple</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Srinagar/SRINAGAR.jpg" class="d-block w-100" alt="SRINAGAR">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Srinagar</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Srinagar/Sri_Pratap_Singh_Museum.jpg" class="d-block w-100" alt="Sri_Pratap_Singh_Museum">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Sri Pratap Singh Museum</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Srinagar" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Srinagar" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">22. Srinagar</h5>
+                <p class="card-text">Famously known as 'Heaven on Earth, Srinagar is located in the union territory of Jammu & Kashmir, on the banks of river Jhelum. Known for its serene lakes, lush gardens, and Mughal-era architecture, Srinagar is a timeless destination that beckons travelers from around the world.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> April to October</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Udaipur" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Udaipur" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Udaipur" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Udaipur" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Udaipur/UDAIPUR.jpg" class="d-block w-100" alt="UDAIPUR">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Udaipur</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Udaipur/water_palace.jpg" class="d-block w-100" alt="water_palace">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Water Palace</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Udaipur/Boat_Ride_in_Lake_Pichola_River.jpg" class="d-block w-100" alt="Boat_Ride_in_Lake_Pichola_River">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Boat Ride in Lake Pichola River</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Udaipur" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Udaipur" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">23. Udaipur</h5>
+                <p class="card-text">Udaipur, the "City of Lakes," stands as a jewel in the crown of Rajasthan, India. Nestled amidst the Aravalli Range, this city captivates visitors with its regal charm, historic grandeur, and scenic landscapes. Located around stunning water lakes and enveloped by the Aravalli Hills.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Ujjain" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Ujjain" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Ujjain" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Ujjain" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/assets/anant_images/Ujjain/Mahakaleshwar_Jyotirlinga_temple.jpg" class="d-block w-100" alt="Mahakaleshwar_Jyotirlinga_temple">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Mahakaleshwar Jyotirlinga Temple</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Ujjain/UJJAIN.jpg" class="d-block w-100" alt="UJJAIN">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ujjain</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Ujjain/Ram_Mandir_Ghat.jpg" class="d-block w-100" alt="Ram_Mandir_Ghat">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ram Mandir Ghat</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Ujjain" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Ujjain" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">24. Ujjain</h5>
+                <p class="card-text">Ujjain, considered to be one of the holiest cities of India, is an ancient city situated on the eastern bank of the Shipra River in the Malwa region of Madhya Pradesh. Ujjain is one of the four sites for the Kumbh Mela, the largest peace-time gathering on the planet that attracts 100 million people.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+              </div>
+            </div>
+          </div>
+        </div><br><br>
+
+
+        <!--9th Row-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100 border border-warning border-3">
+              <div id="Varanasi" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#Varanasi" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#Varanasi" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#Varanasi" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/anant_images/Varanasi/Banks_of_River_Ganga.jpg" class="d-block w-100" alt="Banks_of_River_Ganga">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Banks of River Ganga</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Varanasi/VARANASI.jpg" class="d-block w-100" alt="VARANASI">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Varanasi</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/assets/anant_images/Varanasi/Dashawamedha_Ghat.jpg" class="d-block w-100" alt="Dashawamedha_Ghat">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Dashawamedha_Ghat</h5>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Varanasi" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Varanasi" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+              <div class="card-body text-bg-secondary">
+                <h5 class="card-title">25. Varanasi</h5>
+                <p class="card-text">World's oldest living city, Varanasi - also known as Kashi (City of Life) and Benaras, is the spiritual capital of India. It is one of Hinduism's seven holy cities. The old city of Varanasi lies along the western banks of the Ganges, spread across a labyrinth of narrow galis.</p>
+              </div>
+              <div class="card-footer bg-primary bg-opacity-50">
+                <small class="text-body-secondary"><b>Best Time:</b> October to March</small>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+                  
+    </section><br><br><br><br>
+
+
+    <!-- Footer and Quick Links-->
+    <footer>
+      <div class="container-fluid m-auto row mb-2">
+          <div class="col-md-3">
+              <img class="img-fluid" src="assets/icons/indiatourismlogo.png" alt="" style="height: 200px;">
+          </div>
+          <div class="col-md-3">
+              <a href="" class="nav-link fs-5 mb-2 fw-bold">Explore</a>
+              <a href="" class="nav-link mb-1">Packages</a>
+              <a href="" class="nav-link mb-1">Hotels</a>
+              <a href="" class="nav-link mb-1">Destinations</a>
+              <a href="" class="nav-link mb-1">Packages</a>
+              <a href="" class="nav-link mb-1">Packages</a>
+          </div>
+          <div class="col-md-3">
+              <h3 class="h3">Traval Agent?</h3>
+              <h6 class="h6 text-Primary"><a class="nav-link" href="">Buy Travel Leads</a></h6>
+              <p>(100% phone and email verified leads for holiday packages)</p>
+          </div>
+          <div class="col-md-3">
+              <h3 class="h3">Need help with tour packages?</h3>
+              <h6 class="h6 text-primary">
+                  <a class="nav-link" href="">Fill this form to get a callback</a>
+              </h6>
+              <div>
+                  <div>
+                      <img src="assets/icons/icons8-phone-50.png" alt="" height="30">
+                      022-486878955
+                  </div>
+                  <div>
+                      <img src="assets/icons/icons8-email-50.png" alt="" height="30">
+                      hello@indiatourism.com
+                  </div>
+                  <div>
+                      <p>Mon-Fri: 10AM - 7PM (IST)
+                          <br> Saturday: 10AM - 2PM (IST)
+                      </p>
+                  </div>
+                  <div class="row">
+                      <div class="col-auto"><a href=""><img src="assets/icons/instagram.png" alt="" height="30"
+                                  width="30"></a></div>
+                      <div class="col-auto"><a href=""><img src="assets/icons/youtube.png" alt="" height="30"
+                                  width="30"></a></div>
+                      <div class="col-auto"><a href=""><img src="assets/icons/facebook.png" alt="" height="30"
+                                  width="30"></a></div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
     
     
-
-
-
-
-
-
-
-
 
 
 
     <!-- Bootsrap JavaScript Link -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    
 </body>
 </html>
